@@ -47,10 +47,10 @@ echo "User Input 1: $user_input1"
 echo "User Input 2: $user_input2"
 
 ## Provide an example of an If-Else statement in Shell Scripting by comparing two numbers.
-Step one -Create a file like filename.sh<br>
-Step two - check file permission by command - ls -l filename.sh
-step three - Change the file permission by command - chmod 700 filename.sh
-step four - To run file - ./ifelse.sh
+-Step 1 -Create a file like filename.sh<br>
+-Step 2 - check file permission by command - ls -l filename.sh
+-Step 3 - Change the file permission by command - chmod 700 filename.sh
+-Step 4- To run file - ./ifelse.sh
 #### Code :
 #!/bin/bash
 
