@@ -29,18 +29,18 @@ In DevOps, shell scripting is like creating a set of automated instructions that
 ## 7. Write a Shell Script that takes user input, input from arguments, and prints the variables.
    #!/bin/bash
 
-# Take input from command-line arguments
+#### Take input from command-line arguments
 arg1=$1
 arg2=$2
 
-# Prompt the user for input
+#### Prompt the user for input
 echo "Enter a value for user_input1:"
 read user_input1
 
 echo "Enter a value for user_input2:"
 read user_input2
 
-# Print the values
+#### Print the values
 echo "Command-line Argument 1: $arg1"
 echo "Command-line Argument 2: $arg2"
 echo "User Input 1: $user_input1"
@@ -51,7 +51,7 @@ Step one -Create a file like filename.sh<br>
 Step two - check file permission by command - ls -l filename.sh
 step three - Change the file permission by command - chmod 700 filename.sh
 step four - To run file - ./ifelse.sh
-Code :
+#### Code :
 #!/bin/bash
 
 echo "Enter a value for user_input1:"
