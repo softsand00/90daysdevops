@@ -28,9 +28,11 @@
 10. ### To find the difference between fruits.txt and Colors.txt file.
     diff fruits.txt Colors.txt
 11. ### To find the Same between fruits.txt and Colors.txt file.
-    *1 Sort both the files
+    * 1 Sort both the files
     sort fruits.txt -o fruits.txt
     sort Colors.txt -o Colors.txt
-    *2 Find common
+    * 2 Find common
+    comm -12 fruits.txt Colors.txt
+
     comm -12 fruits.txt Colors.txt
 
