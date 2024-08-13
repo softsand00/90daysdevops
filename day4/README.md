@@ -63,5 +63,5 @@ read num2
 if [ $num1 -gt $num2 ]; then<br>
     echo "The number 1 is greater."<br>
 else<br>
-    echo "The number 2 is greater or equal."<br>
+    echo "The number 2 is greater "<br>
 fi
