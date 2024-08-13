@@ -22,3 +22,46 @@ In DevOps, shell scripting is like creating a set of automated instructions that
 * Bash (Bourne Again SHell) is a popular and powerful shell that provides advanced features and functionalities compared to other shells.
 * sh is the original Unix shell, and it's more basic compared to Bash. However, it is widely supported and used for portability across different Unix-like systems.
 
+## 6. Write a Shell Script that prints I will complete #90DaysOfDevOps challenge
+   Create a file
+   echo "I will complete #90DaysOfDevOps challenge "
+   
+## 7. Write a Shell Script that takes user input, input from arguments, and prints the variables.
+   #!/bin/bash
+
+# Take input from command-line arguments
+arg1=$1
+arg2=$2
+
+# Prompt the user for input
+echo "Enter a value for user_input1:"
+read user_input1
+
+echo "Enter a value for user_input2:"
+read user_input2
+
+# Print the values
+echo "Command-line Argument 1: $arg1"
+echo "Command-line Argument 2: $arg2"
+echo "User Input 1: $user_input1"
+echo "User Input 2: $user_input2"
+
+## Provide an example of an If-Else statement in Shell Scripting by comparing two numbers.
+Step one -Create a file like filename.sh<br>
+Step two - check file permission by command - ls -l filename.sh
+step three - Change the file permission by command - chmod 700 filename.sh
+step four - To run file - ./ifelse.sh
+Code :
+#!/bin/bash
+
+echo "Enter a value for user_input1:"
+read num1
+
+echo "Enter a value for user_input2:"
+read num2
+
+if [ $num1 -gt $num2 ]; then
+    echo "The number 1 is greater."
+else
+    echo "The number 2 is greater or equal."
+fi
