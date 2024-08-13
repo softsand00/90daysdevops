@@ -60,8 +60,8 @@ read num1
 echo "Enter a value for user_input2:"
 read num2
 
-if [ $num1 -gt $num2 ]; then
-    echo "The number 1 is greater."
-else
-    echo "The number 2 is greater or equal."
+if [ $num1 -gt $num2 ]; then<br>
+    echo "The number 1 is greater."<br>
+else<br>
+    echo "The number 2 is greater or equal."<br>
 fi
